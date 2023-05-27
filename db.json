@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Vu",
+      "email": "vu@gmail.com",
+      "password": "123456",
+      "phone": "",
+      "address": "",
+      "img": ""
+    }
+  ],
+  "products": [
+    {
+      "name": "product 3",
+      "ProductCateID": "3",
+      "price": "4234324",
+      "img": "product 1product 1product 1product 1product 1product 1",
+      "id": 3
+    },
+    {
+      "name": "product 5",
+      "ProductCateID": "4",
+      "price": "32424234",
+      "img": "product 1product 1product 1product 1product 1product 1",
+      "id": 5
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "idProduct": 1,
+      "status": 1
+    }
+  ],
+  "cateProducts": [
+    {
+      "name": "danh mục 3",
+      "id": 3
+    },
+    {
+      "name": "danh mục 4",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<h1>Addd</h1>
+<form (ngSubmit)="onHandleSubmit()" [formGroup]="productForm">
+    <div class="mb-3">
+        <input type="text" formControlName="name"  class="form-control" />
+    </div>
+    <div class="mb-3">
+        <input type="text" formControlName="price"  class="form-control"/>
+    </div>
+    <div class="mb-3">
+        <input type="text" formControlName="img"  class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <select class="form-select " formControlName="ProductCateID" aria-label=".form-select-lg example">
+            <option *ngFor="let catePro of ProductCateID" value={{catePro.id}}>{{catePro.name}}</option>
+          </select>
+    </div>
+        
+    
+<button type="submit" class="btn btn-primary bg-block btn-lg mt-3" >Submit</button>
+    <!-- <button type="submit" class="btn btn-primary bg-block btn-lg mt-3" [disabled]="!productForm.valid">Submit</button> -->
+
+    <!-- {{ productForm.value | json }} -->
+</form>

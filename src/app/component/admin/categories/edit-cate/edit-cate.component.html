@@ -1,0 +1,16 @@
+<p>Edit</p>
+<h1>Edit Categories</h1>
+<form (ngSubmit)="onHandleEdit()" [formGroup]="cateForm">
+    <div class="mb-3">
+        <input
+            type="text"         
+            formControlName="name"
+            placeholder="Tên"
+            class="form-control"
+        />
+    </div>
+    <button type="submit" class="btn btn-primary bg-block btn-lg">
+        Sửa
+    </button>
+</form>
+
