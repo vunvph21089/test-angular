@@ -4,6 +4,9 @@ import { ServicesService } from 'src/app/services/services.service';
 import { FormGroup ,FormBuilder,FormControl,Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
+
+
+
 @Component({
   selector: 'app-add-product',
   templateUrl: './add-product.component.html',
@@ -49,3 +52,8 @@ export class AddProductComponent {
     })
   }
 }
+
+
+// thêm sửa xóa ảnh
+// npm install @cloudinary/angular @cloudinary/base ng2-file-upload --legacy-peer-deps
+//Import "CloudinaryModule" và "CloudinaryConfiguration" trong AppModule của mình

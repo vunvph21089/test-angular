@@ -42,6 +42,5 @@ export class ProductComponent {
   // sessionStorage.setItem('cart', addCartJson)
   this.productService.saveCart(this.carts)
   alert("thêm vào giỏ hàng thành công")
- 
   }
 }

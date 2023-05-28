@@ -27,7 +27,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/css/font-awesome.min.css"
             ],
             "styles": [
               "src/styles.scss"
